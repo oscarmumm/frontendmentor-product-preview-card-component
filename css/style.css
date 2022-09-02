@@ -98,18 +98,20 @@ h1 {
         display: none;
     }
     .picture-desktop {
-        display: block;
+        display: flex;
         width: 100%;
+    }
+    .picture-div {
+        width: 50%;
     }
     .description-div {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        width: 50%;
+        margin: 1em;
     }
     main div img {
         border-radius: 10px 0 0 10px;
-    }
-    .description-div {
-        margin: 1em;
     }
 }
